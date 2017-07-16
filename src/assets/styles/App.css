@@ -411,6 +411,7 @@ ul {
   display: inline-block;
   height: 29px;
   color: grey;
+  margin-left: 60px;
 }
 .header-content .navlist ul {
   display: flex;
@@ -425,6 +426,17 @@ footer {
   width: 100%;
   background: #e83556;
   padding: 50px 0;
+  margin-bottom: 40px;
+}
+footer .footer-content {
+  width: 450px;
+  margin: 0 auto;
+  overflow: auto;
+  color: white;
+}
+footer .footer-content li {
+  width: 50%;
+  float: left;
 }
 .about-content {
   margin-top: 66px;
