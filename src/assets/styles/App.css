@@ -391,9 +391,77 @@ template {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.App {
+.header-content {
+  padding-left: 77px;
+  padding-top: 35px;
+  color: #4D4D4D;
+  font-weight: bold;
+}
+.header-content .name {
+  display: inline-block;
+}
+.header-content .subheader {
+  margin-top: 40px;
+  font-size: 18px;
+}
+.header-content .navlist {
+  display: inline-block;
+  height: 29px;
+  color: grey;
+}
+.header-content .navlist ul {
+  display: flex;
+  flex-direction: row;
+}
+.header-content .navlist li {
+  height: 29px;
+  line-height: 29px;
+  padding: 0 10px;
+}
+footer {
+  width: 100%;
+  background: #e83556;
+  padding: 50px 0;
+}
+.about-content {
+  margin-top: 66px;
+  padding-left: 77px;
+}
+.description h3 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.description h4 {
+  font-size: 46px;
+}
+.description .left {
+  display: inline-block;
+  width: 44%;
+}
+.description .right {
+  display: inline-block;
+  width: 56%;
+}
+.network-content {
+  margin-top: 60px;
+  width: 100%;
+}
+.network-content ul {
+  width: 100%;
+}
+.network-content li {
+  display: inline-block;
+  width: 33.3333%;
   text-align: center;
+}
+.pageWrap {
+  width: 980px;
+  padding-bottom: 40px;
+  min-height: 100%;
+  margin: 0 auto;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -415,4 +483,8 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eae5e5 !important;
 }

@@ -18,18 +18,18 @@ export default class SectionSocialNetworks extends Component {
     ];
     let networksHtml = networksList.map(function(item, index){
       return (
-        <li>
+        <li key={index}>
           <div></div>
           <div>{item.name}</div>
         </li>
       )
     });
     return(
-      <div>
+      <section className="network-content">
         <ul>
           {networksHtml}
         </ul>
-      </div>
+      </section>
     )
   }
 }
