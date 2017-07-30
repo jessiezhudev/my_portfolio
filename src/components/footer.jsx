@@ -4,26 +4,17 @@ export default class Footer extends Component {
   render(){
     return(
       <footer>
-        <ul className="footer-content">
-          <li>
-            <div>
-
+        <div className="footer-content">
+          <a href="mailto:yudianzhu10@hotmail.com">
+            <div className="email">
+              <div className="iconfont icon-email"></div>
             </div>
             <div>
               <p>Contact</p>
               <p>yudianzhu10@hotmail.com</p>
             </div>
-          </li>
-          <li>
-            <div>
-
-            </div>
-            <div>
-              <p>Follow me</p>
-              <p></p>
-            </div>
-          </li>
-        </ul>
+          </a>
+        </div>
       </footer>
     )
   }

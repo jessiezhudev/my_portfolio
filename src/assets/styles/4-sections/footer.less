@@ -5,16 +5,30 @@ footer {
     background: @footerPinkColor;
     padding: 50px 0;
     margin-bottom: 40px;
+    text-align: center;
 
     .footer-content {
-        width: 450px;
-        margin: 0 auto;
-        overflow: auto;
+        display: inline-block;
         color: white;
-    }
 
-    .footer-content li {
-        width: 50%;
-        float: left;
+        a {
+            display: block;
+            color: white;
+        }
+
+        .email {
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            background-color: #61D0D4;
+            border-radius: 50%;
+            margin-bottom: 20px;
+
+            .icon-email {
+                font-size: 24px;
+            }
+        }
     }
 }
